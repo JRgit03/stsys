@@ -24,9 +24,6 @@ export default {
       activeIndex: '1'
     }
   },
-  components: {
-
-  },
   methods: {
     handleClick(tab, event) {
       console.log(tab, event);

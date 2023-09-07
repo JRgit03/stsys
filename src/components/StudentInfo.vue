@@ -162,7 +162,7 @@
       </div>
     </el-dialog>
     <!--  分页功能  -->
-    <div class="block" style="{margin: 50px auto; text-align: center}">
+    <div class="block">
       <el-pagination
           @size-change="handleSizeChange"
           @current-change="handleCurrentChange"
@@ -357,5 +357,8 @@ export default {
 </script>
 
 <style scoped>
-
+  .el-pagination {
+    margin-top: 20px;
+    text-align: center;
+  }
 </style>
