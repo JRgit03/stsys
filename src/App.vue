@@ -6,6 +6,7 @@
             <el-menu-item index="/student">学生管理</el-menu-item>
             <el-menu-item index="/course">课程管理</el-menu-item>
             <el-menu-item index="/score">成绩管理</el-menu-item>
+            <el-menu-item index="/studentHtml">Html版本</el-menu-item>
           </el-menu>
         </el-header>
         <el-main>

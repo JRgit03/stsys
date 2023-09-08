@@ -3,6 +3,7 @@ import VueRouter from "vue-router";
 import StudentInfo from "@/components/StudentInfo";
 import CourseInfo from "@/components/CourseInfo";
 import ScoreInfo from "@/components/ScoreInfo";
+import StudentHtml from "@/components/StudentHtml";
 
 //创建并暴露路由器
 export default new VueRouter({
@@ -18,6 +19,10 @@ export default new VueRouter({
     {
       path: '/score',
       component: ScoreInfo
+    },
+    {
+      path: '/studentHtml',
+      component: StudentHtml
     }
   ]
 })
